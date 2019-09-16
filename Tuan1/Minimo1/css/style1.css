@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block1 { padding: 35px;}
+
+.header nav.main__menu a {
+    margin-left: 20px;
+    padding: 0;
+}
+.banner__img {
+    margin-top: 35px;
+    height: 254px;
+}
+.content__header { margin: 49px 40px 25px 40px;}
+
+.content__title { margin: 15px 0 13px;}
+
+.content__text { margin: 32px 0;}
+
+.second__content { margin-top: 65px;}
+
+.first__content .second__content, .third__content, .fourth__content {
+    display: flex;
+}
+.content__left, .content__right { margin: 0;}
+
+.third__content { margin-top: 65px;}
+
+.block2 { padding: 65px 100px 70px;}
+
+.footer { margin: 50px 40px; padding: 35px;}
+
+.fourth__content { margin-bottom: 82px;}
+
+.footer {padding: 20px 35px 20px 75px;}
+@media screen and (max-width: 600px) {
+    .second__content .third__content .fourth__content {
+        flex-direction: column;
+    }
+}
